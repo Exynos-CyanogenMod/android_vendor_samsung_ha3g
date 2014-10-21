@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/hw/audio_policy.universal5420.so:system/lib/hw/audio_policy.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/hw/audio.primary.universal5420.so:system/lib/hw/audio.primary.universal5420.so \
-  vendor/samsung/ha3g/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
   vendor/samsung/ha3g/proprietary/lib/libymc_codecctrl.so:system/lib/libymc_codecctrl.so \
   vendor/samsung/ha3g/proprietary/lib/libymc_config.so:system/lib/libymc_config.so \
   vendor/samsung/ha3g/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
@@ -28,7 +27,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libsamsungRecord_zoom.so:system/lib/libsamsungRecord_zoom.so \
   vendor/samsung/ha3g/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundAlive_SRC192_ver204.so:system/lib/lib_SoundAlive_SRC192_ver204.so \
-  vendor/samsung/ha3g/proprietary/lib/lib_SamsungRec_V04001_He.so:system/lib/lib_SamsungRec_V04001_He.so \
   vendor/samsung/ha3g/proprietary/lib/lib_DNSe_NRSS_ver225.so:system/lib/lib_DNSe_NRSS_ver225.so \
   vendor/samsung/ha3g/proprietary/lib/lib_Samsung_AudioZoom_v100.so:system/lib/lib_Samsung_AudioZoom_v100.so \
   vendor/samsung/ha3g/proprietary/lib/lib_SoundBooster_ver402.so:system/lib/lib_SoundBooster_ver402.so \
@@ -89,11 +87,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
   vendor/samsung/ha3g/proprietary/vendor/lib/hw/power.exynos5.so:system/vendor/lib/hw/power.exynos5.so \
   vendor/samsung/ha3g/proprietary/lib/hw/sensorhubs.universal5420.so:system/lib/hw/sensorhubs.universal5420.so \
-  vendor/samsung/ha3g/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
+  vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/ha3g/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
   vendor/samsung/ha3g/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/hw/lights.exynos5.so::system/vendor/lib/hw/lights.exynos5.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
   vendor/samsung/ha3g/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
@@ -112,16 +109,12 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
   vendor/samsung/ha3g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
   vendor/samsung/ha3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-  vendor/samsung/ha3g/proprietary/bin/lpm:system/bin/lpm \
   vendor/samsung/ha3g/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-  vendor/samsung/ha3g/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
-  vendor/samsung/ha3g/proprietary/vendor/lib/liblvvetx_3.20.03.so:system/vendor/lib/liblvvetx_3.20.03.so \
   vendor/samsung/ha3g/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
   vendor/samsung/ha3g/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
   vendor/samsung/ha3g/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
@@ -132,6 +125,4 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/etc/wifi/nvram_mfg.txt_wisol:system/etc/wifi/nvram_mfg.txt_wisol \
   vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
   vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
-  vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
-  vendor/samsung/ha3g/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-  vendor/samsung/ha3g/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
+  vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol
