@@ -143,4 +143,5 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
   vendor/samsung/ha3g/proprietary/vendor/lib/liblvvetx_3.20.03.so:system/vendor/lib/liblvvetx_3.20.03.so \
   vendor/samsung/ha3g/proprietary/bin/secure_storage_daemon:system/bin/secure_storage_daemon \
-  vendor/samsung/ha3g/proprietary/bin/bintvoutservice:system/bin/bintvoutservice
+  vendor/samsung/ha3g/proprietary/bin/bintvoutservice:system/bin/bintvoutservice \
+  vendor/samsung/ha3g/proprietary/sbin/cbd:root/sbin/cbd
