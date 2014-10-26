@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
   vendor/samsung/ha3g/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
-  vendor/samsung/ha3g/proprietary/vendor/lib/hw/power.exynos5.so:system/vendor/lib/hw/power.exynos5.so \
   vendor/samsung/ha3g/proprietary/lib/hw/sensorhubs.universal5420.so:system/lib/hw/sensorhubs.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
   vendor/samsung/ha3g/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -125,4 +124,23 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g/proprietary/etc/wifi/nvram_mfg.txt_wisol:system/etc/wifi/nvram_mfg.txt_wisol \
   vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
   vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
-  vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol
+  vendor/samsung/ha3g/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
+  vendor/samsung/ha3g/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+  vendor/samsung/ha3g/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+  vendor/samsung/ha3g/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+  vendor/samsung/ha3g/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+  vendor/samsung/ha3g/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+  vendor/samsung/ha3g/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+  vendor/samsung/ha3g/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+  vendor/samsung/ha3g/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+  vendor/samsung/ha3g/proprietary/bin/ddexe:system/bin/ddexe \
+  vendor/samsung/ha3g/proprietary/bin/smdexe:system/bin/smdexe \
+  vendor/samsung/ha3g/proprietary/bin/connfwexe:system/bin/connfwexe \
+  vendor/samsung/ha3g/proprietary/bin/lpm:system/bin/lpm \
+  vendor/samsung/ha3g/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+  vendor/samsung/ha3g/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+  vendor/samsung/ha3g/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+  vendor/samsung/ha3g/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
+  vendor/samsung/ha3g/proprietary/vendor/lib/liblvvetx_3.20.03.so:system/vendor/lib/liblvvetx_3.20.03.so \
+  vendor/samsung/ha3g/proprietary/bin/secure_storage_daemon:system/bin/secure_storage_daemon \
+  vendor/samsung/ha3g/proprietary/bin/bintvoutservice:system/bin/bintvoutservice
